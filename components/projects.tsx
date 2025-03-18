@@ -1,6 +1,7 @@
-import { ExternalLink, Github } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { ExternalLink } from "lucide-react"; // Removed unused 'Github' import
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Image from "next/image"; // Added Next.js Image import
 
 export default function Projects() {
   const projects = [
@@ -28,7 +29,7 @@ export default function Projects() {
       demoLink: "#",
       codeLink: "#",
     },
-  ]
+  ];
 
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-800">
@@ -44,9 +45,11 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="aspect-video w-full overflow-hidden">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
+                  width={500} // Adjust based on your design
+                  height={281} // Maintain aspect ratio (16:9 for aspect-video)
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -69,7 +72,6 @@ export default function Projects() {
                       <ExternalLink className="h-4 w-4 mr-1" /> Demo
                     </a>
                   </Button>
-                 
                 </div>
               </CardContent>
             </Card>
@@ -77,6 +79,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
