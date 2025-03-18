@@ -1,6 +1,6 @@
-import { ArrowDown } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Navbar from "@/components/navbar"
+import { ArrowDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Navbar from "@/components/navbar";
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 dark:from-blue-900/20 dark:to-purple-900/20"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-          <span className="block">Hi, I'm Ranjit Adhikari</span>
+          <span className="block">Hi, I&apos;m Ranjit Adhikari</span>
           <span className="block text-blue-600 dark:text-blue-400">Frontend Developer</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-5 md:text-xl text-gray-600 dark:text-gray-300">
@@ -31,6 +31,5 @@ export default function Hero() {
         </a>
       </div>
     </section>
-  )
+  );
 }
-
