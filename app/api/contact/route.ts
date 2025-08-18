@@ -16,10 +16,14 @@ export async function POST(req: Request) {
     })
 
     return new Response(JSON.stringify({ success: true, data: newMessage }))
-  } catch (error) {
-    console.error("❌ Error saving contact:", error)
-    return new Response(JSON.stringify({ error: "Server error" }), { status: 500 })
-  }
+} catch (error) {
+  console.error("❌ Error saving contact:", error)
+  const errorMessage = typeof error === "object" && error !== null && "message" in error
+    ? (error as { message: string }).message
+    : "An unknown error occurred";
+  return new Response(JSON.stringify({ error: errorMessage }), { status: 500 })
+}
+
 }
 
 export async function GET() {
@@ -31,6 +35,6 @@ export async function GET() {
     return new Response(JSON.stringify({ success: true, data: messages }))
   } catch (error) {
     console.error("❌ Error fetching messages:", error)
-    return new Response(JSON.stringify({ error: "Server error" }), { status: 500 })
+    return new Response(JSON.stringify({ error: "Server error" }), { status: 500 } )
   }
 }
