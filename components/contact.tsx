@@ -29,12 +29,14 @@ export default function Contact() {
 
       setStatus("✅ Message sent successfully!")
       setForm({ name: "", email: "", subject: "", message: "" })
-    } catch (err: any) {
-      setStatus("❌ " + err.message)
-    } finally {
-      setIsSubmitting(false)
-      setTimeout(() => setStatus(""), 4000)
-    }
+   } catch (err: unknown) {
+  if (err instanceof Error) {
+    setStatus("❌ " + err.message)
+  } else {
+    setStatus("❌ Something went wrong")
+  }
+}
+
   }
 
   return (
