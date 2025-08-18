@@ -18,7 +18,7 @@ export default function About() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Career Objective</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Passionate Frontend Developer with 3+ years of experience in building responsive, high-performance,
+                  Passionate Frontend Developer with 1+ years of experience in building responsive, high-performance,
                   and user-friendly web applications. Skilled in React.js, TypeScript, and modern frontend technologies.
                   Excels in writing clean, maintainable code and optimizing performance. Seeking to contribute expertise
                   in building cutting-edge applications at Higan Labs.
