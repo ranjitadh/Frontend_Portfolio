@@ -3,7 +3,7 @@
 import type React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = "dark" | "" | "system";
+type Theme = "dark" | "light" | "system";
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -23,10 +23,10 @@ const ThemeProviderContext = createContext<ThemeProviderState | undefined>(undef
 
 export function ThemeProvider({
   children,
-  defaultTheme = "system",
+  defaultTheme = "dark",
   storageKey = "theme",
   attribute = "class", // Used as a class attribute by default
-  enableSystem = true,
+  enableSystem = false,
   disableTransitionOnChange = false,
   ...props
 }: ThemeProviderProps) {
