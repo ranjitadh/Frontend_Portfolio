@@ -46,7 +46,8 @@ export default function Contact() {
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white">Get In Touch</h2>
           <p className="text-gray-600 dark:text-gray-300">
-            I’d love to hear from you! Fill out the form or reach me through the contact info below.
+            I’m actively seeking remote or onsite opportunities where I can contribute and grow. Fill out the
+            form or reach me through the contact info below.
           </p>
 
           <div className="space-y-4">

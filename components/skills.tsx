@@ -4,17 +4,17 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["JavaScript (ES6+)", "Typescript", "HTML5", "CSS3", "C", "C++"],
+      skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "C", "C++"],
       color: "bg-blue-500",
     },
     {
-      title: "Frameworks",
-      skills: ["React.js", "Bootstrap", "Tailwind CSS"],
+      title: "Frontend & Mobile",
+      skills: ["React.js", "React Native", "Expo", "Next.js", "Tailwind CSS", "Bootstrap"],
       color: "bg-purple-500",
     },
     {
-      title: "Tools",
-      skills: ["Git", "Webpack", "Babel", "npm/Yarn", "Docker", "Postman"],
+      title: "Tools & Services",
+      skills: ["Git", "Webpack", "Babel", "npm/Yarn", "Docker", "Postman", "Supabase"],
       color: "bg-green-500",
     },
   ]
@@ -69,6 +69,15 @@ export default function Skills() {
           </Card>
         </div>
       </div>
+
+        <div className="mt-8">
+          <Card>
+            <CardContent className="p-6">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Additional Focus</h3>
+              <p className="text-gray-600 dark:text-gray-300">AI Automation · Performance Optimization · Accessibility · SEO best practices</p>
+            </CardContent>
+          </Card>
+        </div>
     </section>
   )
 }

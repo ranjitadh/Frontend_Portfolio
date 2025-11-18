@@ -6,26 +6,38 @@ import Image from "next/image"; // Added Next.js Image import
 export default function Projects() {
   const projects = [
     {
-      title: "Real-time Dashboard",
-      description: "Developed an interactive dashboard using React.js for state management, and integrated APIs.",
+      title: "DataBrakes Web",
+      description:
+        "Responsive, interactive data management dashboard built with React.js. Uses component-based architecture, React Hooks for state, Tailwind CSS for styling, and RESTful APIs for dynamic data.",
       image: "/dashboard.png",
-      tags: ["React.js", "API Integration", "State Management"],
+      tags: ["React.js", "Tailwind CSS", "REST APIs", "Hooks"],
+      demoLink: "#",
+      codeLink: "#",
+    },
+    {
+      title: "E-Commerce Platform",
+      description:
+        "Scalable e-commerce site with product listing, filtering, cart functionality, and secure checkout. Implements dynamic routing, reusable components, and backend integration for inventory/order management.",
+      image: "/ecommerce.png",
+      tags: ["React.js", "Next.js", "Performance", "SEO"],
       demoLink: "#",
       codeLink: "#",
     },
     {
       title: "Cafe Website",
-      description: "Built a scalable and optimized Cafe site with modern web technologies.",
+      description:
+        "Modern, visually appealing café website built as a personal project. Emphasized UI/UX design, responsive layout, and custom animations for menu browsing and engagement.",
       image: "/baddakoadda.png",
-      tags: ["React.js", "tailwindcss", "Optimization"],
-      demoLink: "https://my-3j553mqd5-ranjitadhs-projects.vercel.app/",
+      tags: ["React.js", "CSS3", "Animations"],
+      demoLink: "#",
       codeLink: "#",
     },
     {
-      title: "Portfolio Website",
-      description: "Designed and developed a personal portfolio using React and CSS3.",
-      image: "/portfolio.png",
-      tags: ["React", "CSS3", "Portfolio"],
+      title: "English → Sign Language Translation",
+      description:
+        "A translation system converting typed English text into sign language videos. Uses Porter Stemming for preprocessing, OpenCV for multimedia handling, and maps keywords to pre-recorded sign videos to improve accessibility.",
+      image: "/signlang.png",
+      tags: ["OpenCV", "Accessibility", "NLP"],
       demoLink: "#",
       codeLink: "#",
     },

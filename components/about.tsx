@@ -18,10 +18,9 @@ export default function About() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Career Objective</h3>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Passionate Frontend Developer with 1+ years of experience in building responsive, high-performance,
-                  and user-friendly web applications. Skilled in React.js, TypeScript, and modern frontend technologies.
-                  Excels in writing clean, maintainable code and optimizing performance. Seeking to contribute expertise
-                  in building cutting-edge applications at Higan Labs.
+                 I am a Web and Mobile App Developer currently pursuing a degree in Computer Engineering. I have a strong passion for modern web development,
+particularly with React.js, and have completed all the foundational prerequisites to build scalable and dynamic applications. I am now seeking
+remote or onsite opportunities where I can contribute my skills, grow as a developer, and work on impactful projects.
                 </p>
 
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Strengths</h3>

@@ -61,6 +61,18 @@ export default function Navbar() {
                 </a>
               ))}
               <ThemeToggle />
+              <div className="ml-4">
+                <Button asChild className="ml-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-4 py-2 rounded-full elevated-card">
+                  <a
+                    href="https://www.upwork.com/freelancers/~0193267b112e1a1b2d?mp_source=share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Hire me on Upwork"
+                  >
+                    Hire me on Upwork
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
 
@@ -87,6 +99,17 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
+              <div className="px-3 py-2">
+                <a
+                  href="https://www.upwork.com/freelancers/~0193267b112e1a1b2d?mp_source=share"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-center w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full font-medium"
+                  onClick={toggleMenu}
+                >
+                  Hire me on Upwork
+                </a>
+              </div>
           </div>
         </div>
       )}

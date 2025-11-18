@@ -22,40 +22,55 @@ export default function Experience() {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Frontend Developer</h3>
-                  <p className="text-blue-600 dark:text-blue-400 font-medium">Freelance</p>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">2020 - Present</p>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Mobile App Developer</h3>
+                  <p className="text-blue-600 dark:text-blue-400 font-medium">Khatra Tech</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">Jan 2023 – Aug 2025</p>
                   <div className="mt-4 space-y-3">
                     <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
                         <div className="h-2 w-2 rounded-full bg-blue-600"></div>
                       </div>
                       <p className="ml-3 text-gray-600 dark:text-gray-300">
-                        Developed web applications using React, and state management solutions like Zustand.
+                        Maintained and enhanced the company mobile application across iOS and Android, ensuring
+                        stability and performance.
                       </p>
                     </div>
+
                     <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
                         <div className="h-2 w-2 rounded-full bg-blue-600"></div>
                       </div>
                       <p className="ml-3 text-gray-600 dark:text-gray-300">
-                        Integrated RESTful APIs and GraphQL endpoints to fetch and display data efficiently.
+                        Identified and resolved bugs, optimized app load times, and improved UX via efficient state
+                        management and performance tuning.
                       </p>
                     </div>
+
                     <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
                         <div className="h-2 w-2 rounded-full bg-blue-600"></div>
                       </div>
                       <p className="ml-3 text-gray-600 dark:text-gray-300">
-                        Collaborated with designers to create responsive and visually appealing UI/UX experiences.
+                        Implemented AI automation features to streamline workflows and enhance app intelligence.
                       </p>
                     </div>
+
                     <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
                         <div className="h-2 w-2 rounded-full bg-blue-600"></div>
                       </div>
                       <p className="ml-3 text-gray-600 dark:text-gray-300">
-                        Optimized performance by reducing load times and improving accessibility.
+                        Collaborated using Git-based workflows, ensured clean commits and smooth deployments, and
+                        performed QA testing to ensure production readiness.
+                      </p>
+                    </div>
+
+                    <div className="flex items-start">
+                      <div className="flex-shrink-0 mt-1">
+                        <div className="h-2 w-2 rounded-full bg-blue-600"></div>
+                      </div>
+                      <p className="ml-3 text-gray-600 dark:text-gray-300 font-medium">
+                        Key Skills: Mobile App Development · Bug Fixing · AI Automation · Performance Optimization · Quality Assurance · Git · React Native · Supabase · Next.js
                       </p>
                     </div>
                   </div>

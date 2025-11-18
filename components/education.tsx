@@ -10,9 +10,9 @@ export default function Education() {
       icon: GraduationCap,
     },
     {
-      institution: "Gorkha International Public",
+      institution: "Gorkha International Public Secondary",
       degree: "Higher Secondary",
-      period: "2021",
+      period: "2019",
       icon: GraduationCap,
     },
     {
