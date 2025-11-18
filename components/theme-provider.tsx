@@ -45,7 +45,7 @@ export function ThemeProvider({
       }
     } else if (enableSystem) {
       const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-      setTheme(systemTheme);
+      setTheme(systemTheme as Theme);
       if (attribute === "class") {
         root.classList.toggle("dark", systemTheme === "dark");
       } else {
