@@ -37,9 +37,7 @@ export default function Hero() {
           <Button asChild variant="outline" className="ml-4 rounded-full px-6 py-3 border-gray-200 dark:border-gray-700">
             <a href="#about">Learn More</a>
           </Button>
-          <Button asChild variant="ghost" className="ml-2 hidden sm:inline-flex text-sm">
-            <a href="#hire">Hire on Upwork</a>
-          </Button>
+         
         </div>
       </div>
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
